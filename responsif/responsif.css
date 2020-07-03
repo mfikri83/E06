@@ -1,0 +1,62 @@
+@media(max-width: 1000px) {
+	.content {
+		float: none;
+		width: 100%;
+	}
+
+	main .album {
+		float: none;
+		width: 50%;
+		align-content: center;
+	}
+
+	.column {
+		width: 50%;
+		display: block;
+	}
+
+	.footer img {
+		height: 55px;
+	}
+
+}
+
+@media(max-width: 670px) {
+	.navigation {
+		display: none;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+	.logo-slank {
+		margin-top: 10px;
+	}
+
+	main {
+		margin-top: 100px;
+	}
+
+	.column {
+		width: 100%;
+		display: block;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer img {
+		height: 45px;
+	}
+
+	.footer-left {
+		float: none;
+	}
+
+	.footer-right {
+		float: none;
+		text-align: center;
+	}
+}
